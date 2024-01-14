@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:'poppins';
+    box-sizing: border-box;
+}
+body{
+    background:#000;
+    color:#fff;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0 , 0 ,0.7),rgba(0, 0 , 0 ,0.7)), url(image1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+.logo{
+    height: 80px;
+    width: 180px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.english{
+    background-color: transparent;
+}
+.headcontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top:100px;
+}
+.headcontent h1{
+    font-size: 50px;
+    line-height: 71px;
+    font-weight: 700;
+    max-width: 750px;
+}
+.headercontent h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.emailsignup{
+    border-radius: 4px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+
+}
+
+.emailsignup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    padding: 15px 30px;
+}
+
+.emailsignup button{
+    background:#db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 6px;
+    margin: 20px 2px;
+    /* border: 5px solid rgb(31, 31, 31);
+    border-radius: 5px; */
+   
+
+}
+
+.textcall{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.imgcall{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.imgcall img{
+   display: block;
+   width: 90%;
+   margin: auto;
+}
+
+.features h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.faq{
+    padding: 20px ;
+    text-align: center;
+    font-size: 18px;
+    border: 5px solid #303030;
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+}
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    background: #303030;
+    text-align: center;
+    padding: 0px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height, 0.5s ,padding, 0.5s ;
+}
+.accordion input[type="radio"]:checked+label+.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.emailsignupp input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    padding: 15px 60px;
+}
+
+.emailsignupp button{
+    background:#db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+footer{
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+.question{
+    height: 30px;
+    border-top: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.last{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.last li{
+    list-style: none;
+    font-weight: 500;
+}
+.bottom{
+    height: 50px;
+}
+.india{
+    height: 50px;
+  padding-left: 10px;
+}
+
+.englishh{
+    background: rgb(45, 45, 45);
+    color: white;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    font-weight: 800;
+   
+}
+.finish{
+    margin-left: 100px;
+}
